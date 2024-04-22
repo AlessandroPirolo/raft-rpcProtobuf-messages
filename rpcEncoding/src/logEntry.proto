@@ -11,6 +11,8 @@ enum Operation {
   JOIN_CONF = 3;
   NODE_UPDATED = 4;
   NODE_DELETED = 5;
+  CREATE = 6;
+  RENAME = 7;
 }
 
 message logEntry {
