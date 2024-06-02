@@ -11,13 +11,11 @@ enum MexType {
     REQUEST_VOTE_RESPONSE = 3;
     CLIENT_REQUEST =4;
     NEW_CONF = 5;
-    NEW_CONF_ADD = 6;
-    NEW_CONF_DEL = 7;
-    UPDATE_NODE = 8;
-    UPDATE_NODE_RESP = 9;
+    UPDATE_NODE = 6;
+    UPDATE_NODE_RESP = 7;
 
-    REDIRECTION = 10;
-    CLIENT_RETURN_VALUE = 11;
+    REDIRECTION = 8;
+    CLIENT_RETURN_VALUE = 9;
 }
 
 message Entry {
